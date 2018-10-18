@@ -27,5 +27,7 @@ dependencies {
 	compile('org.springframework.boot:spring-boot-starter')
     compile('org.springframework.boot:spring-boot-starter-data-rest')
 	compile('org.springframework.boot:spring-boot-starter-data-elasticsearch')
+	compile group: 'commons-io', name: 'commons-io', version: '2.6'
+	compile group: 'org.projectlombok', name: 'lombok', version: '1.18.2'
 	testCompile('org.springframework.boot:spring-boot-starter-test')
 }
